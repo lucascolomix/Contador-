@@ -1,12 +1,12 @@
 
 import './App.css';
-import './components/contador';
+import Contador from './components/Contador';
 function App() {
  
 
   return (
     <>
-      <Contador/>
+      <Contador inicialState={5}/>
     </>
   )
 }
