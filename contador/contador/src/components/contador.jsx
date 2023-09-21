@@ -15,9 +15,9 @@ const contadorMas= () => {
     <div>
        <h1>Contador </h1>
        <h3>{cuenta}</h3>
-       <button  onClick={contadorMas}>+1</button>
-       <button onClick={() => setCuenta (props.inicialState)}>Resetear</button>
-       <button onClick={() => setCuenta(cuenta-1)}>-1</button>
+       <button className='margenes' onClick={contadorMas}>+1</button>
+       <button className='margenes'onClick={() => setCuenta (props.inicialState)}>Resetear</button>
+       <button className='margenes' onClick={() => setCuenta(cuenta-1)}>-1</button>
     </div>
   );
 };
