@@ -1,12 +1,12 @@
 
-import './App.css'
-
+import './App.css';
+import './components/contador';
 function App() {
  
 
   return (
     <>
-      
+      <Contador/>
     </>
   )
 }
